@@ -16,14 +16,14 @@ This project performs exploratory time series analysis on stock price data from 
 - **Interpretation**:
     - **SMA** smooths price fluctuations and is useful for identifying medium-term trends.
     - **EMA** responds more quickly to recent price changes and is useful for short-term trend detection.
-
+![Intel Moving Average](./myplot.png)
 ### 2. **Quarterly Trend Analysis (INTC)**
 
 - Aggregate daily prices by fiscal quarter and compute the **average closing price** per quarter.
 - Plot the quarterly trend line overlaid with the daily price chart.
 - **Interpretation**:
     - The quarterly trend reveals medium-term direction and helps identify sustained uptrends, downtrends, or potential turning points.
-
+![Quarterly Trend Analysis (INTC)](./myplot2.png)
 ### 3. **Cross-Stock Correlation Analysis (INTC vs WMT)**
 
 - Download daily closing prices for INTC and WMT for the same time period.
@@ -33,7 +33,7 @@ This project performs exploratory time series analysis on stock price data from 
     - **τ = -1**: WMT leads INTC by 1 day
 - **Interpretation**:
     - Reveals co-movement patterns and potential lead-lag relationships between the two stocks, which are valuable for portfolio diversification and predictive modeling.
-
+![Cross-Stock Correlation Analysis](./myplot3.png)
 ---
 
 ### Tech Stack
